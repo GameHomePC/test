@@ -1,0 +1,10 @@
+native-websocket/node_modules/*
+native-websocket/node_modules/
+javascript/node_modules/*
+javascript/node_modules/
+butt2/node_modules/*
+butt2/node_modules/
+butt2-old/node_modules/*
+butt2-old/node_modules/
+.idea/*
+.idea/

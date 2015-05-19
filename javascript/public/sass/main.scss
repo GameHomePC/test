@@ -1,0 +1,66 @@
+@import "compass/reset";
+
+body {
+    font-family: Arial, sans-serif;
+    counter-reset: li;
+}
+
+.item {
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+
+    &:nth-of-type(even) {
+        background: red;
+    }
+
+    &:nth-of-type(odd) {
+        background: green;
+    }
+
+    &:before {
+        counter-increment: li;
+        display: inline-block;
+        color: #ffffff;
+        font-size: 18px;
+        content: counter(li);
+    }
+}
+
+.menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 0;
+    text-align: center;
+    counter-reset: menu;
+
+    li {
+        display: inline-block;
+        vertical-align: top;
+        padding: 5px;
+        width: 50px;
+        cursor: pointer;
+
+        &:nth-of-type(even) {
+            background: red;
+        }
+
+        &:nth-of-type(odd) {
+            background: green;
+        }
+    }
+
+    a {
+        display: block;
+
+        &:before {
+            counter-increment: menu;
+            display: inline-block;
+            color: #ffffff;
+            font-size: 18px;
+            content: counter(menu);
+        }
+    }
+}
