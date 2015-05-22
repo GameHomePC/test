@@ -8,9 +8,7 @@ window.onload = function() {
         socket.send(message.value);
     }, false);
 
-    var socket = new WebSocket('ws://localhost:10000');
-
-    console.log(socket);
+    var socket = new WebSocket('ws://localhost:10001');
 
     socket.onopen = function(event) {
         if(socket.readyState === WebSocket.OPEN) {

@@ -6,5 +6,10 @@ butt2/node_modules/*
 butt2/node_modules/
 butt2-old/node_modules/*
 butt2-old/node_modules/
+fresh1/node_modules/*
+fresh1/node_modules/
 .idea/*
 .idea/
+public/.sass-cache/*
+public/.sass-cache/
+fresh1/public/.sass-cache/

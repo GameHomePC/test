@@ -1,0 +1,337 @@
+html {
+	height: 100%;
+}
+body {
+	margin:0;
+	color:#7CFC00;
+	font: 50px/70px Georgia, Times New Roman, Times, serif;
+	background:#fff;
+	height: 100%;
+}
+img {
+	border-style:none;
+}
+a {
+	color:#000;
+	outline:none;
+}
+a:hover {
+	text-decoration:none;
+}
+* {
+	outline:none;
+}
+input, textarea, select {
+	font:100% arial,sans-serif;
+	vertical-align:middle;
+}
+form, fieldset {
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figure,
+menu,
+dialog {
+	display: block;
+}
+#wrapper {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+section {
+	background: #fff;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
+section img {
+	height: 100%;
+	width: auto;
+}
+#timerSeconds {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 200;
+	font-size: 25px;
+	line-height: 25px;
+	text-shadow: #fff 1px 0px, #fff 1px 1px, #fff 0px 1px, #fff -1px 1px, #fff -1px 0px, #fff -1px -1px, #fff 0px -1px, #fff 1px -1px;
+}
+.slide5,
+.slide1 {
+	top: 0;
+	left: 100%;
+}
+.slide6,
+.slide2 {
+	top: 100%;
+	left: 0;
+}
+.slide3 {
+	top: 0;
+	right: 100%;
+}
+.slide4 {
+	bottom: 100%;
+	right: 0;
+}
+.slide5.active,
+.slide1.active {
+	left: 0;
+}
+.slide6.active,
+.slide2.active {
+	top: 0;
+}
+.slide3.active {
+	right: 0;
+}
+.slide4.active {
+	bottom: 0;
+}
+.info {
+	position: absolute;
+	/*padding: 20px;
+	background: rgba(255, 255, 255, 0.5);*/
+}
+.info span {
+	display: block;
+	position: relative;
+	text-shadow: #fff 1px 0px, #fff 1px 1px, #fff 0px 1px, #fff -1px 1px, #fff -1px 0px, #fff -1px -1px, #fff 0px -1px, #fff 1px -1px;
+}
+.new {
+	font-size: 70px;
+	line-height: 90px;
+	right: 0;
+	opacity: 0;
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+	-webkit-transition-delay: 850ms;
+	transition-delay: 850ms;
+}
+@-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+            transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+            transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+            transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+            transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+            transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+            transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+            transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+            transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+            transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+            transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+.slide5 .info,
+.slide1 .info {
+	top: 100px;
+	left: 100px;
+}
+.slide2 .info {
+	bottom: 100px;
+	left: 100px;
+}
+.slide3 .info {
+	top: 100px;
+	right: 100px;
+}
+.slide4 .info {
+	bottom: 100px;
+	right: 100px;
+}
+.old:after {
+	content: '';
+	position: absolute;
+	top: 41px;
+	left: 0;
+	height: 3px;
+	overflow: hidden;
+	background: #000;
+	-moz-transform: rotate(-8deg);
+	-webkit-transform: rotate(-8deg);
+	-o-transform: rotate(-8deg);
+	-ms-transform: rotate(-8deg);
+	transform: rotate(-8deg);
+	width: 0;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+	-webkit-transition-delay: 600ms;
+	transition-delay: 600ms;
+}
+section.active {
+	z-index: 10;
+}
+section.active .old:after {
+	width: 100%;
+}
+section.active .new {
+	opacity: 1;
+	-webkit-animation-delay: 850ms; /* Chrome, Safari, Opera */
+	    animation-delay: 850ms;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	        animation-fill-mode: both;
+	-webkit-transform-origin: top center;
+	    -ms-transform-origin: top center;
+	        transform-origin: top center;
+	-webkit-animation-name: swing;
+	        animation-name: swing;
+}
+.slide6 .info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 38px;
+	line-height: 48px;
+}
+
+
+  .last-item {
+	    font-size: 25px;
+      color: black;
+  }
+
+.last-item a {
+    font-size: 25px;
+    color: black;
+}
+  
+
+.slide6 .holder {
+	display: table-cell;
+	vertical-align: middle;
+}
+@media only screen and (max-device-width : 768px) and (orientation : portrait) {
+	section img {
+		width: 100%;
+		height: auto;
+	}
+	section:nth-child(even) .info {
+		top: 52%;
+		left: 50%;
+		width: 270px;
+		right: auto !important;
+		bottom: auto !important;
+		margin-left: -135px;
+		text-align: center;
+	}
+	section:nth-child(odd) .info {
+		top: 12%;
+		left: 50%;
+		width: 270px;
+		right: auto !important;
+		bottom: auto !important;
+		margin-left: -135px;
+		text-align: center;
+	}
+	section:nth-child(odd) img {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+	section.slide6 .info {
+		top: 0 !important;
+		left: 0 !important;
+		margin: 0;
+		width: auto !important;
+	}
+	.old:after {
+		top: 35px;
+	}
+
+}
+@media only screen and (max-device-width : 768px) and (orientation : landscape) {
+	section .info {
+		top: 50% !important;
+		bottom: auto !important;
+		margin-top: -80px;
+	}
+	.slide5 .info,
+	.slide1 .info {
+		top: 35px;
+		left: 35px;
+	}
+	.slide2 .info {
+		left: 35px;
+	}
+	.slide3 .info {
+		right: 35px;
+	}
+	.slide4 .info {
+		right: 35px;
+	}
+	section.slide6 .info {
+		top: 0 !important;
+		left: 0 !important;
+		margin: 0;
+		width: auto !important;
+	}
+}
