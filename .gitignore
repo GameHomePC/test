@@ -1,13 +1,11 @@
-native-websocket/node_modules/*
-native-websocket/node_modules/
+*/node_modules/*
+*/node_modules/
 javascript/node_modules/*
 javascript/node_modules/
 butt2/node_modules/*
 butt2/node_modules/
 butt2-old/node_modules/*
 butt2-old/node_modules/
-fresh1/node_modules/*
-fresh1/node_modules/
 .idea/*
 .idea/
 public/.sass-cache/*
