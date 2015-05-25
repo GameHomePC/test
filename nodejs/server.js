@@ -1,5 +1,7 @@
 /* bd */
 var db = require('db');
+var log = require('logger')(module); // модуль фабрика
+
 db.connect();
 
 /* user */
@@ -11,7 +13,7 @@ function run() {
 
     vasya.hello(petya);
 
-    console.log(db.getPhrase("Run successful"));
+    log(db.getPhrase("Run successful"));
 }
 
 if(module.parent) {

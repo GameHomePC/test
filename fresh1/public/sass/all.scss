@@ -33,7 +33,7 @@ body {
         @include text-shadow(#fff 1px 0px, #fff 1px 1px, #fff 0px 1px, #fff -1px 1px, #fff -1px 0px, #fff -1px -1px, #fff 0px -1px, #fff 1px -1px);
 
         &.old {
-            display: inline-block;
+            display: block;
 
             &:after {
                 content: '';
@@ -42,7 +42,7 @@ body {
                 bottom: 0;
                 margin: auto;
                 left: 0;
-                height: 3px;
+                height: 6px;
                 overflow: hidden;
                 background: #000;
                 -moz-transform: rotate(-8deg);
@@ -320,12 +320,18 @@ em {
             .info {
                 bottom: 0;
                 left: 0;
-                right: auto;
+                right: 0;
                 top: auto;
+                margin: auto;
                 width: 100%;
                 height: 30%;
                 display: table;
                 text-align: center;
+
+                span.old {
+                    width: 240px;
+                    margin: auto;
+                }
             }
         }
 
@@ -333,12 +339,18 @@ em {
             .info {
                 top: 0;
                 left: 0;
-                right: auto;
+                right: 0;
                 bottom: auto;
+                margin: auto;
                 width: 100%;
                 height: 30%;
                 display: table;
                 text-align: center;
+
+                span.old {
+                    width: 240px;
+                    margin: auto;
+                }
             }
         }
 
@@ -391,11 +403,16 @@ em {
     section {
         .info {
             top: 0!important;
-            bottom: auto;
+            bottom: 0;
             left: 0!important;
+            margin: auto;
             width: 100%;
-            height: 100%;
             display: table;
+
+            span.old {
+                width: 240px;
+                margin: auto;
+            }
         }
 
         &.slide6 {
@@ -408,9 +425,7 @@ em {
                 font-size: 18px;
                 line-height: 26px;
 
-                em {
-                    display: block;
-                }
+                em { display: block; }
             }
 
             span {
