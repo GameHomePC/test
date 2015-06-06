@@ -8,8 +8,8 @@ var phrases = {
 /* message name stack */
 /* PhraseError */
 function PhraseError(message) {
-    this.message = message;
-    Error.captureStackTrace(this, PhraseError);
+    this.message = message; // Error.apply(this, arguments) конструктор супер класса
+    Error.captureStackTrace(this, PhraseError); // получаем текущий стек
 }
 util.inherits(PhraseError, Error);
 PhraseError.prototype.name = "PhraseError";
@@ -18,7 +18,7 @@ PhraseError.prototype.name = "PhraseError";
 function HttpError(status, message) {
     this.status = status;
     this.message = message;
-    Error.captureStackTrace(this, HttpError);
+    Error.captureStackTrace(this, HttpError); // получаем текущий стек
 }
 util.inherits(HttpError, Error);
 HttpError.prototype.name = "HttpError";

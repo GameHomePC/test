@@ -2,7 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef5d52c1-b0da-4e27-b153-32449225a9f1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delParco1/public/js/jquery.main.js" afterPath="$PROJECT_DIR$/delParco1/public/js/jquery.main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/public/.sass-cache/10ca388a8a157b6e1093ac7b5aada413191dc70b/_reset.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/public/.sass-cache/1ccb7fde5b946f995948e90ddd561f8a67d72edd/_utilities.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/public/.sass-cache/0b51b52b9e0ddd58d0f234571e01e54ea3d80a5b/ie.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/public/.sass-cache/0b51b52b9e0ddd58d0f234571e01e54ea3d80a5b/print.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/public/.sass-cache/0b51b52b9e0ddd58d0f234571e01e54ea3d80a5b/screen.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/public/sass/_mixin.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/public/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-node/chat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/config/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/public/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top-util/ee.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/templates/error.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-fs/fs-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-fs/fs-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-fs/fs-3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/templates/index.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-node/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-fs/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/config/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/routes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top-util/leak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/libs/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/templates/login.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/public/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/public/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/public/sass/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-fs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/templates/layout/page.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-fs/pipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-node/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu-test/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/process/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-fs/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server20/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top-util/timers-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top-util/timers-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top-util/timers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/templates/partials/topNavigation.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat-express/routes/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/top-util/error.js" afterPath="$PROJECT_DIR$/top-util/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test.iml" afterPath="$PROJECT_DIR$/.idea/test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
@@ -28,41 +81,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delParco1/server.js">
+      <file leaf-file-name="page.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chat-express/templates/layout/page.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8704819" vertical-offset="0" max-vertical-offset="544">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delParco1/index.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chat-express/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="884">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delParco1/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="357">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/delParco1/public/js/jquery.main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2320819" vertical-offset="204" max-vertical-offset="1122">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="901">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -76,56 +109,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/native-websocket/css/main.css" />
-        <option value="$PROJECT_DIR$/native-websocket/js/main.js" />
-        <option value="$PROJECT_DIR$/native-websocket/index.html" />
-        <option value="$PROJECT_DIR$/javascript/server.js" />
-        <option value="$PROJECT_DIR$/butt2/package.json" />
-        <option value="$PROJECT_DIR$/butt2/server.js" />
-        <option value="$PROJECT_DIR$/butt2/public/config.rb" />
-        <option value="$PROJECT_DIR$/butt2/public/css/all.css" />
-        <option value="$PROJECT_DIR$/butt2/public/sass/animate/_animate.scss" />
-        <option value="$PROJECT_DIR$/butt2/public/sass/interface/_button.scss" />
-        <option value="$PROJECT_DIR$/butt2/public/sass/interface/_animate.scss" />
-        <option value="$PROJECT_DIR$/butt2/public/sass/all.scss" />
-        <option value="$PROJECT_DIR$/javascript/public/config.rb" />
-        <option value="$PROJECT_DIR$/javascript/public/sass/main.scss" />
-        <option value="$PROJECT_DIR$/javascript/index.html" />
-        <option value="$PROJECT_DIR$/javascript/public/js/main.js" />
-        <option value="$PROJECT_DIR$/butt2/public/js/jquery.main.js" />
-        <option value="$PROJECT_DIR$/butt2/index.html" />
-        <option value="$PROJECT_DIR$/butt2-old/index.html" />
-        <option value="$PROJECT_DIR$/native-websocket/package.json" />
-        <option value="$PROJECT_DIR$/native-websocket/public/js/main.js" />
-        <option value="$PROJECT_DIR$/native-websocket/server.js" />
-        <option value="$PROJECT_DIR$/nodejs/ru.json.js" />
-        <option value="$PROJECT_DIR$/nodejs/user.js" />
-        <option value="$PROJECT_DIR$/nodejs/ru.json" />
-        <option value="$PROJECT_DIR$/nodejs/app.js" />
-        <option value="$PROJECT_DIR$/nodejs/db/index.js" />
-        <option value="$PROJECT_DIR$/nodejs/db/ru.json" />
-        <option value="$PROJECT_DIR$/nodejs/user/index.js" />
-        <option value="$PROJECT_DIR$/nodejs/node_modules/db/ru.json" />
-        <option value="$PROJECT_DIR$/fresh1/public/sass/interface/_animate.scss" />
-        <option value="$PROJECT_DIR$/fresh1/index.html" />
-        <option value="$PROJECT_DIR$/nodejs/logger.js" />
-        <option value="$PROJECT_DIR$/nodejs/node_modules/logger/index.js" />
-        <option value="$PROJECT_DIR$/nodejs/node_modules/user/index.js" />
         <option value="$PROJECT_DIR$/nodejs/server.js" />
         <option value="$PROJECT_DIR$/npm/index.js" />
         <option value="$PROJECT_DIR$/npm/supermodule/package.json" />
         <option value="$PROJECT_DIR$/fresh1/public/sass/all.scss" />
         <option value="$PROJECT_DIR$/fresh1/public/js/jquery.main.js" />
         <option value="$PROJECT_DIR$/npm/npm-server/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/top-util/package.json" />
         <option value="$PROJECT_DIR$/top-util/inspect.js" />
         <option value="$PROJECT_DIR$/top-util/format.js" />
         <option value="$PROJECT_DIR$/top-util/inherits.js" />
-        <option value="$PROJECT_DIR$/top-util/error.js" />
         <option value="$PROJECT_DIR$/delParco1/index.html" />
         <option value="$PROJECT_DIR$/delParco1/public/js/jquery.main.js" />
+        <option value="$PROJECT_DIR$/top-util/error.js" />
+        <option value="$PROJECT_DIR$/top-util/ee.js" />
+        <option value="$PROJECT_DIR$/leak.js" />
+        <option value="$PROJECT_DIR$/server/request.js" />
+        <option value="$PROJECT_DIR$/server/log.js" />
+        <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/server-fs/server.js" />
+        <option value="$PROJECT_DIR$/server20/server.js" />
+        <option value="$PROJECT_DIR$/top-util/timers.js" />
+        <option value="$PROJECT_DIR$/top-util/timers-1.js" />
+        <option value="$PROJECT_DIR$/top-util/timers-2.js" />
+        <option value="$PROJECT_DIR$/server-fs/fs-1.js" />
+        <option value="$PROJECT_DIR$/server-fs/fs-2.js" />
+        <option value="$PROJECT_DIR$/server-fs/fs-3.js" />
+        <option value="$PROJECT_DIR$/server-fs/pipe.js" />
+        <option value="$PROJECT_DIR$/server-fs/public/index.html" />
+        <option value="$PROJECT_DIR$/chat-node/index.html" />
+        <option value="$PROJECT_DIR$/chat-node/server.js" />
+        <option value="$PROJECT_DIR$/chat-node/chat.js" />
+        <option value="$PROJECT_DIR$/domain/index.html" />
+        <option value="$PROJECT_DIR$/domain/server.js" />
+        <option value="$PROJECT_DIR$/domain/app.js" />
+        <option value="$PROJECT_DIR$/process/server.js" />
+        <option value="$PROJECT_DIR$/chat-express/package.json" />
+        <option value="$PROJECT_DIR$/chat-express/config/config.json" />
+        <option value="$PROJECT_DIR$/chat-express/config/index.js" />
+        <option value="$PROJECT_DIR$/chat-express/libs/log.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/chat-express/templates/login.ejs" />
+        <option value="$PROJECT_DIR$/chat-express/templates/error.ejs" />
+        <option value="$PROJECT_DIR$/chat-express/templates/partials/topNavigation.ejs" />
+        <option value="$PROJECT_DIR$/chat-express/templates/index.ejs" />
+        <option value="$PROJECT_DIR$/menu-test/public/config.rb" />
+        <option value="$PROJECT_DIR$/menu-test/public/js/main.js" />
+        <option value="$PROJECT_DIR$/menu-test/public/sass/main.scss" />
+        <option value="$PROJECT_DIR$/menu-test/index.html" />
+        <option value="$PROJECT_DIR$/menu-test/server.js" />
+        <option value="$PROJECT_DIR$/chat-express/app.js" />
+        <option value="$PROJECT_DIR$/chat-express/templates/layout/page.ejs" />
       </list>
     </option>
   </component>
@@ -180,74 +214,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="delParco1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="delParco1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="delParco1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="butt2-old" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -257,29 +223,31 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.lastSelected" value="JavaScript.Libraries" />
+    <property name="options.lastSelected" value="preferences.sourceCode.EJS" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="C:/xampp/htdocs/newcarbon38" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/menu-test/server.js" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\test\menu-test\public\sass" />
+      <recent name="C:\OpenServer\domains\test\top-util" />
+      <recent name="C:\OpenServer\domains\test\server20" />
       <recent name="C:\OpenServer\domains\test\delParco1" />
       <recent name="C:\OpenServer\domains\test\fresh1\public\css" />
-      <recent name="C:\OpenServer\domains\test\fresh1\public" />
-      <recent name="C:\OpenServer\domains\test\fresh1" />
-      <recent name="C:\OpenServer\domains\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\test\top-util" />
       <recent name="C:\OpenServer\domains\test\delParco1\public" />
       <recent name="C:\OpenServer\domains\test\npm\supermodule" />
       <recent name="C:\OpenServer\domains\test\nodejs\node_modules\logger" />
       <recent name="C:\OpenServer\domains\test\fresh1\public" />
-      <recent name="C:\OpenServer\domains\test\nodejs\node_modules" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.chat-express">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -294,7 +262,7 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -309,7 +277,30 @@
       <envs />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="process" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="server.js" application-parameters="--port=3000" node-parameters="C:\Users\Evgeny\AppData\Roaming\npm\node_modules\supervisor\lib\cli-wrapper.js --" working-dir="$PROJECT_DIR$/process">
+      <RunnerSettings RunnerId="Basic" />
+      <ConfigurationWrapper RunnerId="Basic" />
+      <method />
+    </configuration>
+    <configuration default="false" name="chat-express" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/chat-express">
+      <envs>
+        <env name="NODE_PATH" value="." />
+        <env name="NODE_ENV" value="development" />
+      </envs>
+      <RunnerSettings RunnerId="Basic" />
+      <ConfigurationWrapper RunnerId="Basic" />
+      <method />
+    </configuration>
+    <configuration default="false" name="menu" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/menu-test">
+      <RunnerSettings RunnerId="Basic" />
+      <ConfigurationWrapper RunnerId="Basic" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.process" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.chat-express" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.menu" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -352,31 +343,57 @@
       <option name="project" value="LOCAL" />
       <updated>1432673147801</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1432711467400</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1432711467400</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44698206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3713355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22844176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16565809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36373058" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -404,284 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/butt2/public/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.97306395" vertical-offset="0" max-vertical-offset="527">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butt2/public/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9384">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butt2/public/sass/interface/_button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="782">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butt2/public/sass/animate/_animate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.763638" vertical-offset="0" max-vertical-offset="53499">
-          <caret line="158" column="29" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butt2/public/sass/interface/_animate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
-          <caret line="164" column="29" selection-start-line="164" selection-start-column="19" selection-end-line="164" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butt2/public/sass/all.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30136988" vertical-offset="2066" max-vertical-offset="4267">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/public/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51607144" vertical-offset="0" max-vertical-offset="560">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="663">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03926097" vertical-offset="0" max-vertical-offset="433">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/public/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37346438" vertical-offset="732" max-vertical-offset="1207">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11778291" vertical-offset="0" max-vertical-offset="433">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butt2-old/public/js/ie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="785">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butt2/public/js/jquery.main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32484075" vertical-offset="0" max-vertical-offset="785">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butt2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6809651" vertical-offset="512" max-vertical-offset="1258">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butt2-old/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47587132" vertical-offset="189" max-vertical-offset="935">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/butt2-old/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="785">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/csn.sql">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/native-websocket/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32622603" vertical-offset="0" max-vertical-offset="938">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/native-websocket/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24232456" vertical-offset="0" max-vertical-offset="912">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/native-websocket/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21748401" vertical-offset="0" max-vertical-offset="938">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03628602" vertical-offset="0" max-vertical-offset="937">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/node_modules/db/ru.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.037321623" vertical-offset="0" max-vertical-offset="911">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/node_modules/db/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05442903" vertical-offset="0" max-vertical-offset="937">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fresh1/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fresh1/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2236842" vertical-offset="0" max-vertical-offset="912">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fresh1/public/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fresh1/public/sass/animate/_animate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="55573">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fresh1/public/sass/interface/_animate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42588726" vertical-offset="0" max-vertical-offset="731">
-          <caret line="201" column="25" selection-start-line="201" selection-start-column="25" selection-end-line="201" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fresh1/public/css/all11.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26050422" vertical-offset="1831" max-vertical-offset="5814">
-          <caret line="115" column="1" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fresh1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24843423" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.058020476" vertical-offset="0" max-vertical-offset="586">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/node_modules/user/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/node_modules/logger/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.118673645" vertical-offset="0" max-vertical-offset="573">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm/supermodule/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.060822897" vertical-offset="0" max-vertical-offset="559">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm/supermodule/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05811966" vertical-offset="0" max-vertical-offset="585">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fresh1/public/js/jquery.main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5443686" vertical-offset="327" max-vertical-offset="935">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fresh1/public/sass/all.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7166362" vertical-offset="6147" max-vertical-offset="7888">
-          <caret line="449" column="9" selection-start-line="449" selection-start-column="9" selection-end-line="449" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm/npm-server/node_modules/express/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7642544" vertical-offset="867" max-vertical-offset="2924">
-          <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/gitignore_global.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm/npm-server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16776316" vertical-offset="0" max-vertical-offset="912">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/top-util/inspect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12700106" vertical-offset="0" max-vertical-offset="937">
@@ -693,13 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18660812" vertical-offset="0" max-vertical-offset="911">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23229814" vertical-offset="0" max-vertical-offset="805">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -724,41 +456,327 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/top-util/error.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4573379" vertical-offset="276" max-vertical-offset="884">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/delParco1/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/delParco1/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="357">
+        <state vertical-scroll-proportion="0.07464325" vertical-offset="0" max-vertical-offset="911">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/delParco1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="884">
+        <state vertical-scroll-proportion="0.65312845" vertical-offset="0" max-vertical-offset="911">
           <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/delParco1/public/js/jquery.main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2320819" vertical-offset="204" max-vertical-offset="1122">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.50800425" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top-util/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top-util/ee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top-util/leak.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018123668" vertical-offset="0" max-vertical-offset="938">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butt2-old/public/js/jquery.main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43496802" vertical-offset="0" max-vertical-offset="938">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server20/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45309168" vertical-offset="0" max-vertical-offset="938">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-fs/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6646943" vertical-offset="54" max-vertical-offset="561">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top-util/timers-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36883628" vertical-offset="0" max-vertical-offset="507">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top-util/timers-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13412228" vertical-offset="0" max-vertical-offset="507">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top-util/timers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5700197" vertical-offset="0" max-vertical-offset="507">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-fs/fs-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-fs/fs-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1190">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-fs/fs-3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-fs/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4823718" vertical-offset="29517" max-vertical-offset="30141">
+          <caret line="1754" column="0" selection-start-line="1754" selection-start-column="0" selection-end-line="1754" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-fs/pipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45953757" vertical-offset="107" max-vertical-offset="799">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-node/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65245205" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-node/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34434968" vertical-offset="0" max-vertical-offset="938">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-node/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06798246" vertical-offset="57" max-vertical-offset="969">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48986125" vertical-offset="0" max-vertical-offset="937">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055982437" vertical-offset="0" max-vertical-offset="911">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.125" vertical-offset="0" max-vertical-offset="680">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="937">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-express/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030909091" vertical-offset="0" max-vertical-offset="550">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-express/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20307167" vertical-offset="0" max-vertical-offset="586">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-express/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030357143" vertical-offset="0" max-vertical-offset="560">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-express/libs/log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17406143" vertical-offset="0" max-vertical-offset="586">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5454545" vertical-offset="0" max-vertical-offset="323">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-express/templates/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.653846" vertical-offset="632" max-vertical-offset="1037">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-express/templates/error.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-express/templates/partials/topNavigation.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-express/templates/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="153">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-test/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-test/public/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="527">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-test/public/sass/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-test/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-test/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-test/public/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3020638" vertical-offset="162" max-vertical-offset="1122">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51031893" vertical-offset="1054" max-vertical-offset="1785">
+          <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-express/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="901">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-express/templates/layout/page.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8704819" vertical-offset="0" max-vertical-offset="544">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           <folding />
         </state>
       </provider>

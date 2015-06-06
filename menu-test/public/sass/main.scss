@@ -1,0 +1,61 @@
+@import "compass/css3";
+@import "compass/reset";
+@import "mixin";
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 20px auto 0;
+}
+
+.menu {
+    position: relative;
+    background: #000000;
+    @include box-sizing(border-box);
+    text-align: center;
+
+    li {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+
+        &:hover {
+            & > ul {
+                visibility: visible;
+                @include opacity(1);
+            }
+        }
+    }
+
+    a {
+        display: block;
+        color: #fff;
+        background: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        font-size: 16px;
+        @include transition(all 0.5s ease);
+
+        &:hover {
+            color: #000;
+            background: #fff;
+        }
+    }
+
+    .sub-menu {
+        visibility: hidden;
+        @include opacity(0);
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        @include transform(translateX(-50%));
+        z-index: 10;
+        white-space: nowrap;
+        font-size: 0;
+        @include transition(all 0.5s ease);
+    }
+}
