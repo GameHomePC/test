@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+    <circle fill="#0C0E0F" stroke="#000000" stroke-miterlimit="10" cx="100" cy="100" r="90.4"/>
+    <circle fill="#6E6EB0" stroke="#000000" stroke-miterlimit="10" cx="98" cy="98" r="90.4"/>
+    <circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="98" cy="98" r="73.1"/>
+    <g>
+        <g>
+            <text transform="matrix(1 0 0 1 47.9528 114.7232)" fill="#44A8E5" font-family="MyriadPro-Bold" font-size="45">STOP</text>
+        </g>
+        <g>
+            <text transform="matrix(1 0 0 1 45.9528 112.7232)" font-family="MyriadPro-Bold" font-size="45">STOP</text>
+        </g>
+    </g>
+</svg>

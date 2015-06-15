@@ -9,10 +9,11 @@ butt2-old/node_modules/*
 butt2-old/node_modules/
 .idea/*
 .idea/
-public/.sass-cache/*
-public/.sass-cache/
+**/.sass-cache/*
 fresh1/public/.sass-cache/
 npm/npm-server/node_modules/
 menu-test/public/.sass-cache/
 chat-express/public/vendor/bower_components/
 menu-test/public/vendor/bower_components/
+diagramma/public/.sass-cache/
+diagramma/public/vendor/
