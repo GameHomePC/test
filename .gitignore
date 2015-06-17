@@ -1,6 +1,6 @@
 */node_modules/*
 */node_modules/
-*/vendor/*
+*/bower_components/*
 javascript/node_modules/*
 javascript/node_modules/
 butt2/node_modules/*

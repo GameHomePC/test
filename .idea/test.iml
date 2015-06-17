@@ -2,20 +2,14 @@
 <module type="WEB_MODULE" version="4">
   <component name="CompassSettings">
     <option name="compassConfigPath" value="$MODULE_DIR$/butt2/public/config.rb" />
-    <option name="compassExecutableFilePath" value="C:/RailsInstaller/Ruby2.1.0/bin/compass.bat" />
+    <option name="compassExecutableFilePath" value="C:\Ruby21-x64\bin\compass.bat" />
     <option name="compassSupportEnabled" value="true" />
-    <option name="importPaths">
-      <list>
-        <option value="C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-svg-sprites-0.0.4/lib/../stylesheets" />
-        <option value="C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets" />
-      </list>
-    </option>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Node.js v0.12.2 Core Modules" level="application" />
-    <orderEntry type="library" name="compass-library" level="project" />
+    <orderEntry type="library" name="Node.js v0.10.35 Core Modules" level="application" />
   </component>
 </module>
