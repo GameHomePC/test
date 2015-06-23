@@ -6,7 +6,12 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "ejs": "*",
     "express": "3.3.8",
-    "ejs": "*"
+    "nconf": "^0.7.1",
+    "winston": "^1.0.0"
+  },
+  "devDependencies": {
+    "ejs-locals": "^1.0.2"
   }
 }
