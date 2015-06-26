@@ -41,8 +41,8 @@ window.onload = function() {
     canvas = document.getElementById('canvas');
     ctx = canvas.getContext('2d');
 
-    canvas.width = 512;
-    canvas.height = 480;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 
     circle.push(new Circle(ctx));
 
