@@ -4,8 +4,6 @@ function Control() {
         var code = event.keyCode || event.which;
         var key;
 
-        console.log(code);
-
         key = String.fromCharCode(code);
 
         this.pressedKeys[key] = status;
