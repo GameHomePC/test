@@ -1,0 +1,127 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+/*///////////////////////////////////////////////////////////////////////////////
+date:     26.08.13
+author:   Ivan Miroshnikov
+e-mail:   ivan(dog)htmlfabric.ru
+website:  htmlfabric.ru
+///////////////////////////////////////////////////////////////////////////////*/
+
+html { height: 100%; overflow: hidden; position: relative; width: 100%; }
+
+	body { background: #fff; color: #000; font: 13px/1.333 Tahoma, sans-serif; height: 100%; position: relative; width: 100%; }
+	input, textarea, select { font-family: Tahoma, sans-serif; }
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*main part*/
+.noJS { background: #fff; height: 100%; left: 0; position: fixed; top: 0; width: 100%; z-index: 999; }
+
+.bg { height: 100%; left: 0; position: fixed; top: 0; width: 100%; z-index: 10; }
+	.bgBlue { background: url(../i/bg1.jpg) 50% 50% no-repeat; background-size: cover; }
+	.bgViolet { background: url(../i/bg6.jpg) 50% 50% no-repeat; background-size: cover; bottom: 100%; top: auto; z-index: 39; }
+	.bgDarkGreen { background: url(../i/bg4.jpg) 50% 50% no-repeat; background-size: cover; bottom: 100%; top: auto; z-index: 100; }
+	
+.bottle img, .drop img, .effect img, .vulcano img, .helicopter img, .info img, .hand img, .lineLeft img, .lineRight img, .roundMan img, .audience img, .woman img, .na1 img, .cpokup img, .helicopterW img { height: auto; vertical-align: top; width: 100%; }
+
+.bottle { left: 50%; margin-left: -15%; position: fixed; bottom: 5%; width: 30%; z-index: 20; }
+	
+.bottleViolet { display: none; }
+	
+.drop { left: 50%; margin-left: -2%; position: fixed; bottom: 100%; width: 4%; z-index: 30; }
+	
+.effect { left: 50%; margin-left: -16%; position: fixed; top: -15%; width: 32%; z-index: 40; }
+	
+.vulcano { display: none; left: 50%; margin-left: -15%; position: fixed; bottom: 8%; width: 30%; z-index: 35; }
+	
+.helicopter { right: 150%; margin-right: -9%; position: fixed; top: 25%; width: 24%; z-index: 50; }
+
+.info { bottom: -100%; left: 0; margin-bottom: -10%; position: fixed; width: 100%; z-index: 60; }
+
+.hand { bottom: -150%; left: 50%; margin-left: -20%; position: fixed; width: 40%; z-index: 80; }
+.hand_active { opacity: 0; z-index: 81; }
+
+.lineLeft { left: -32%; position: fixed; top: 30%; width: 32%; z-index: 90; }
+.lineRight { right: -32%; position: fixed; top: 50%; width: 32%; z-index: 90; }
+
+.roundMan { display: none; left: 10%; margin-top: -16%; position: fixed; top: 50%; width: 32%; z-index: 110; }
+
+	.audience { display: none; left: 0; margin-left: -20%; position: absolute; top: 0; width: 60%; z-index: 120; }
+
+.woman { bottom: 0; left: -60%; position: fixed; width: 26%; z-index: 140; }
+
+.na1, .cpokup { left: 50%; margin-left: -19%; position: fixed; top: -50%; width: 38%; z-index: 150; }
+
+.lineLeftYellow { z-index: 160; }
+
+.helicopterW { left: 50%; margin-left: -14%; position: fixed; top: -100%; width: 28%; z-index: 170; }
+
+.timer { color: #666; font-size: 17px; left: 3%; position: fixed; top: 5%; z-index: 200; }
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*another part*/
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+b, strong { font-weight: bold; }
+i { font-style: italic; }
+.alignLeft { text-align: left !important; }
+.alignRight { text-align: right !important; }
+.alignCenter { text-align: center !important; }
+.pullLeft { float: left; }
+.pullRight { float: right; }
+.clear { clear: both; }
+.clear { clear: both; font-size: 0; height: 0; line-height: 0; }
+.clearfix { *zoom: 1; }
+.clearfix:before,.clearfix:after { display: table; line-height: 0; content: ""; }
+.clearfix:after { clear: both; }
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+/*href's*/
+a { color: #000; text-decoration: underline; }
+a:hover { color: red; }
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+@media screen and (orientation : portrait) {
+	
+	.bottle, .vulcano { margin-left: -30%; width: 60%; }
+	.drop { margin-left: -4%; width: 8%; }
+	.effect { margin-left: -32%; width: 64%; }
+	.helicopter { margin-right: -12%; width: 48%; }
+	.info { margin-left: -54%; width: 200%; }
+	.hand { margin-left: -45%; width: 90%; }
+	.lineLeft { margin-left: -57%; width: 64%; }
+	.lineRight { margin-right: -57%; width: 64%; }
+	.roundMan { left: -20%; top: 40%; width: 64%; }
+	.audience { width: 80%; }
+	.woman { margin-left: -24%; width: 60%; }
+	.na1, .cpokup { margin-left: -45%; width: 90%; }
+	.helicopterW { margin: 10% 0 0 -28%; width: 56%; }
+	
+}
+
+@media screen and (min-aspect-ratio: 2/1) {
+
+	.bottle, .vulcano { margin-left: -7.5%; width: 15%; }
+	.drop { margin-left: -1%; width: 2%; }
+	.effect { margin-left: -8%; width: 16%; }
+	.helicopter { margin-right: -4%; width: 12%; }
+	.hand { margin-left: -15%; width: 30%; }
+	.woman { width: 20%; }
+	.na1, .cpokup { margin-left: -14%; width: 28%; }
+
+}
