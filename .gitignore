@@ -18,3 +18,4 @@ menu-test/public/vendor/bower_components/
 diagramma/public/.sass-cache/
 diagramma/public/vendor/
 svg/public/bower_components/
+**/**/node_modules

@@ -54,8 +54,8 @@ function Clock(ctx) {
     this.r = 150;
 
     this.lengthHour = 50;
-    this.lengthMin = 100;
-    this.lengthSec = 150;
+    this.lengthMin = 70;
+    this.lengthSec = 100;
 
     this.setObject = function() {
         var _this = this;
@@ -101,18 +101,20 @@ function Clock(ctx) {
             })(i);
         }
 
-        var currentTime = new Date();
-
-
-
         var LineArrowHour = new this.create.LineArrow(this.ctx, this.x, this.y, this.r);
         LineArrowHour.draw(function() {
-            this.getLine(this.x, this.y, 10, 10, '#000', 2);
+            this.getLine(this.x, this.y, this.x + _this.lengthHour, this.y + _this.lengthHour, '#000', 6);
         });
 
         var LineArrowMin = new this.create.LineArrow(this.ctx, this.x, this.y, this.r);
-        var LineArrowSec = new this.create.LineArrow(this.ctx, this.x, this.y, this.r);
+        LineArrowMin.draw(function() {
+            this.getLine(this.x, this.y, this.x + _this.lengthMin, this.y + _this.lengthMin, '#000', 4);
+        });
 
+        var LineArrowSec = new this.create.LineArrow(this.ctx, this.x, this.y, this.r);
+        LineArrowSec.draw(function() {
+            this.getLine(this.x, this.y, this.x + _this.lengthSec, this.y + _this.lengthSec, '#000', 2);
+        });
 
         LineArrowArray.push(LineArrowHour,LineArrowMin,LineArrowSec);
     };
