@@ -1,60 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>MENU</title>
-        <link rel="stylesheet" href="css/main.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <script src="vendor/bower_components/jquery/dist/jquery.js"></script>
+    <style>
+        h2 {
+            height: 100px;
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+<body>
 
-        <script src="vendor/bower_components/jquery/dist/jquery.js"></script>
-        <script src="js/main.js"></script>
-    </head>
-    <body>
-        <div class="wrapper">
-            <div class="blockItem">
-                <ul class="menu">
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">HOME</a>
 
-                        <ul class="menu__subMenu">
-                            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="blockItem">
-                <ul class="menu menu_bg_red">
-                    <li class="menu__item">
-                        <a class="menu__link menu__link_bg_red" href="#">HOME</a>
+<h2 onclick="newMyWindow('http://javascript.ru/')">six</h2>
 
-                        <ul class="menu__subMenu menu__subMenu_red">
-                            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="blockItem">
-                <ul class="menu menu_bg_green">
-                    <li class="menu__item">
-                        <a class="menu__link menu__link_size_14" href="#">HOME <i class="fa fa-pulse fa-spinner"></i></a>
+<script>
+    function newMyWindow(e) {
+        var h = window.innerHeight,
+            w = window.innerWidth;
 
-                        <ul class="menu__subMenu menu__subMenu_green">
-                            <li class="menu__item"><a class="menu__link menu__link_size_14" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link menu__link_size_14" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link menu__link_size_14" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link menu__link_size_14" href="#">HOME</a></li>
-                            <li class="menu__item"><a class="menu__link menu__link_size_14" href="#">HOME</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </body>
+        window.open(e, '', 'scrollbars=1, ' + 'height=' + h + ',' + 'width='+ w);
+    }
+</script>
+</body>
 </html>
