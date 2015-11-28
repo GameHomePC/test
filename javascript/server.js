@@ -7,5 +7,6 @@ app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(10000);
-console.log('start server: localhost:10000');
+app.listen(3000, function() {
+    console.log('start server: localhost:3000');
+});

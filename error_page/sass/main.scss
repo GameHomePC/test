@@ -1,0 +1,48 @@
+/* Roboto */
+@import "reset";
+@import "mixin";
+$Roboto: 'Roboto', sans-serif;
+
+/* FontAwesome */
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+$FontAwesome: 'FontAwesome', sans-serif;
+
+body {
+    font-size: 14px;
+    font-family: $Roboto;
+}
+
+.errorPage__images {
+    height: 100%;
+    background-image: url("../images/PB_Error_1366x768.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include breakpointmedia(1048, 'max-width') {
+        background-image: url("../images/PB_ErrorPage_1048x768.jpg");
+    }
+}
+
+
+html, body { height: 100%; }
+.wrapper, .page { height: 100%; }
+
+.main {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -200px;
+    padding-bottom: 200px;
+    box-sizing: border-box;
+    background: red;
+}
+
+* html .wrapper {
+    height: 100%;
+}
+
+.footer {
+    position: relative;
+    background: blue;
+}

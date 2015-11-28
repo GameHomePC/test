@@ -1,0 +1,19 @@
+ul li {
+    position: relative;
+    padding-left: 760px;
+}
+
+ul li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: url("images_template/logo.jpg") no-repeat;
+    width: 750px;
+    height: 114px;
+    margin-bottom:10px;
+}
+h1 {
+    line-height: 10px;
+    display:inline;
+}

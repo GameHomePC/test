@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Demo</title>
+
+        <style>
+            html, body {
+                height: 100%;
+            }
+
+            .circle {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                width: 100px;
+                height: 100px;
+                background: blue;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 32px;
+                font-family: Arial;
+                color: #FFF;
+                transition: all 0.2s ease;
+                cursor: pointer;
+            }
+
+            .circle:hover { transform: rotate(180deg) scale(1.5); }
+        </style>
+    </head>
+    <body style="background: red;">
+        <div class="circle">
+            Кирилл<br>
+            +<br>
+            Наташа
+        </div>
+    </body>
+</html>
+
