@@ -23,7 +23,7 @@ function LineMain(svg) {
 }
 
 LineMain.prototype.getEventsClick = function() {
-    var _this = this;
+    var self = this;
 
     var path = this.svg
         .path()
@@ -31,7 +31,7 @@ LineMain.prototype.getEventsClick = function() {
 
     var pathArray = [];
 
-    var updatePath = function() {
+    this.updatePath = function() {
         var first = pathArray[0],
             pathString = "M" + first.x + "," + first.y;
 
@@ -47,9 +47,9 @@ LineMain.prototype.getEventsClick = function() {
     this.svg.click(function(e) {
         if(e.target.tagName !== "svg") return;
 
-        _this.svg
-            .circle(e.pageX, e.pageY, _this.r)
-            .attr(_this.styleCircle)
+        self.svg
+            .circle(e.pageX, e.pageY, self.r)
+            .attr(self.styleCircle)
             .data("i", pathArray.length)
             .mouseover(function() {
                 this.stop().animate({r:25}, 1000, mina.elastic);
@@ -57,7 +57,8 @@ LineMain.prototype.getEventsClick = function() {
             .mouseout(function() {
                 this.stop().animate({r:15}, 300, mina.easeinout);
             })
-            .drag(function(dx, dy, x, y) {
+            .drag(function(dx, dy, x, y, elements) {
+
                 this.attr({
                     cx: x,
                     cy: y
@@ -67,7 +68,7 @@ LineMain.prototype.getEventsClick = function() {
                 currentNode.x = x;
                 currentNode.y = y;
 
-                updatePath();
+                self.updatePath();
             },function() {
                 path.stop().animate({opacity: 0.2}, 200, mina.easeinout);
             },function() {
@@ -79,7 +80,7 @@ LineMain.prototype.getEventsClick = function() {
             y: e.pageY
         });
 
-        updatePath();
+        self.updatePath();
     })
 };
 
