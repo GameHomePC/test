@@ -1,4 +1,29 @@
 $(function() {
+
+    //==============
+    // AudioConfig
+    //==============
+    function AudioConfig(config) {
+        this.audio = $(config.audio);
+    }
+
+    AudioConfig.prototype.getInit = function() {
+        this.getAudio();
+    };
+
+    AudioConfig.prototype.getAudio = function() {
+        this.audio.each(function() {
+            var self = this;
+
+            self.play();
+        });
+    };
+
+    var audio = new AudioConfig({
+        audio: '.audio'
+    });
+    audio.getInit();
+
     function getUrlVar(name) {
         name = name.replace(/[[]/,"[").replace(/[]]/,"]");
         var regexS = "[?&]"+name+"=([^&#]*)";
