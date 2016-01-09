@@ -1,10 +1,8 @@
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'),
+    Schema = mongoose.Schema;
 
-mongoose.model('Document', {
-    properties: ['title', 'data', 'tags', 'user_id'],
-    indexes: ['title', 'user_id']
+var BearSchema = new Schema({
+    name: String
 });
 
-exports.Document = function(db) {
-    return db.model('Document');
-};
+module.exports = mongoose.model('Bear', BearSchema);
