@@ -1,0 +1,44 @@
+@import "../var";
+/* ============================================ *
+ * General Styles
+ * ============================================ */
+body, table.body, th, h1, h2, h3, h4, h5, h6, td, p, strong {
+    font-weight: normal;
+    font-family: $Verdana;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background: #ffffff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+p, dt, dd, dl {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+table,
+table td {
+    border-collapse: collapse;
+}
+
+table td {
+    vertical-align: top;
+}

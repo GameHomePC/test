@@ -1,0 +1,121 @@
+/* ============================================ *
+ * General Styles
+ * ============================================ */
+body {
+  background: #fff;
+  padding: 0;
+  margin: 0; }
+
+table, p, dt, dd, dl, ul {
+  padding: 0;
+  margin: 0;
+  font-family: Tahoma, sans-serif; }
+
+table {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt; }
+
+img {
+  -ms-interpolation-mode: bicubic; }
+
+table,
+table td {
+  border-collapse: collapse; }
+
+table td {
+  vertical-align: top;
+  padding: 0;
+  margin: 0; }
+
+.center {
+  text-align: center; }
+
+.left {
+  text-align: left; }
+
+.right {
+  text-align: right; }
+
+.table-font-size {
+  font-size: 0; }
+
+/* header */
+.header {
+  display: block;
+  height: 127px;
+  text-decoration: none;
+  background-size: 100%; }
+
+.header__description {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  padding-top: 68px; }
+
+.bg-main {
+  background: #fff; }
+
+.wrapper {
+  padding: 0 90px; }
+
+.main-text {
+  font-size: 16px;
+  color: #444444;
+  line-height: 22px;
+  margin-bottom: 20px; }
+  .main-text a {
+    color: #1a9dff;
+    text-decoration: none; }
+
+.main-text__paddingT1 {
+  padding-top: 22px; }
+
+.main-text__paddingT2 {
+  padding-top: 5px;
+  padding-bottom: 25px; }
+
+.main-text__marginB2 {
+  margin-bottom: 45px; }
+
+.resetImages {
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+.pTop {
+  padding-top: 26px; }
+
+/* main-list */
+.main-list {
+  padding: 4px 38px; }
+  .main-list li {
+    font-size: 16px;
+    color: #444444;
+    line-height: 22px;
+    padding-left: 19px; }
+
+/* info__title */
+.info__title {
+  font-size: 14px;
+  color: #1a9dff;
+  line-height: 22px;
+  text-decoration: none; }
+
+.info__description {
+  font-size: 12px;
+  color: #444444;
+  line-height: 24px; }
+  .info__description a {
+    color: #1a9dff;
+    text-decoration: none; }
+
+.table-main {
+  border-left: 1px solid #efefef;
+  border-top: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+  margin-bottom: 47px; }
+  .table-main td {
+    border-bottom: 1px solid #efefef;
+    padding: 10px 0; }
