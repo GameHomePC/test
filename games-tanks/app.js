@@ -3,9 +3,9 @@ var express = require('express'),
     cookieParser = require('cookie-parser'),
     path = require('path'),
     logger = require('morgan'),
-    app = module.exports = express(),
+    app = express(),
     mongoose = require('mongoose'),
-    Bear = require('./models.js');
+    Bear = require('./models');
 
 mongoose.connect('mongodb://localhost:27017/blog');
 
@@ -15,8 +15,8 @@ app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
 app.use(logger('dev'));
-app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -25,23 +25,31 @@ app.use(express.static(path.join(__dirname, 'public')));
 var router = express.Router();
 
 // middleware to use for all requests
-router.use(function(req, res, next) {
+app.use(function(req, res, next) {
     console.log('Something is happening.');
     next();
 });
 
-// middleware to use for all requests
-router.get('/', function(req, res) {
-    res.redirect('/documents');
+app.get('/', function(req, res) {
+    res.json({ message: 'hooray! welcome to our api!' });
 });
 
-router.get('/documents', function(req, res) {
+app.route('/bears')
+    .post(function(req, res) {
+        var bear = new Bear();
+        bear.name = req.body.name;
 
-});
+        bear.save(function(err) {
+            if (err)
+                res.send(err);
+
+            res.json({ message: 'Bear created!' });
+        });
+    });
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
-router.use("/api", router);
+app.use("/api", router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
