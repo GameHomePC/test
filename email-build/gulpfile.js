@@ -68,7 +68,7 @@ var current_date = new Date().toString(),
                     service: 'gmail',
                     auth: {
                         user: 'yauheni.aliakseyenko@neklo.com',
-                        pass: 'w1m1bzk1'
+                        pass: '******'
                     }
                 }
             }
