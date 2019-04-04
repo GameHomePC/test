@@ -39,7 +39,7 @@ gulp.task('inlineCss', function() {
 gulp.task('browser-sync', function() {
     browserSync.init({
         proxy: {
-            target: "test.loc"
+            target: "localhost:8080"
         },
         open: false
     });
@@ -50,13 +50,13 @@ gulp.task('browser-sync', function() {
 //===============
 var current_date = new Date().toString(),
     email_subject = 'Food Service',
-    remote_imgs_basepath = 'http://cz.meet-magento.com/mail-templates/images/',
+    remote_imgs_basepath = '',
     email_builder_options = {
         encodeSpecialChars: true,
 
         emailTest : {
             // Your Email
-            email : 'ealexsee@gmail.com',
+            email : 'yauheni.aliakseyenko@neklo.com',
 
             // Your email Subject
             subject : email_subject + ' [' + current_date + ']',
@@ -67,8 +67,8 @@ var current_date = new Date().toString(),
                 options: {
                     service: 'gmail',
                     auth: {
-                        user: 'ealexsee@gmail.com',
-                        pass: '0z0pid118dkrq5jojy3fwu1iscegvpg1'
+                        user: 'yauheni.aliakseyenko@neklo.com',
+                        pass: 'w1m1bzk1'
                     }
                 }
             }
@@ -76,7 +76,7 @@ var current_date = new Date().toString(),
     };
 
 gulp.task('emailBuilder', function() {
-    gulp.src(['./build/email-pdp.html'])
+    gulp.src(['./build/split-shipment.html'])
         .pipe(emailBuilder(email_builder_options))
         .pipe(gulp.dest('./ready_to_send'));
 });
