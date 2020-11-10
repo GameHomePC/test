@@ -12,7 +12,7 @@
     "browser-sync": "^2.10.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
-    "gulp-email-builder": "^1.0.4",
+    "gulp-email-builder": "^3.0.0",
     "gulp-inline-css": "^3.0.0",
     "gulp-replace": "^0.5.4",
     "gulp-sass": "^4.0.1"
