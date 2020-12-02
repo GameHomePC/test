@@ -29,7 +29,8 @@ img {
 
 table,
 table td {
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  font-size: 0; }
 
 table td {
   vertical-align: top; }

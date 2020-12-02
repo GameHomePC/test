@@ -56,28 +56,30 @@ var current_date = new Date().toString(),
 
         emailTest : {
             // Your Email
-            email : 'yauheni.aliakseyenko@neklo.com',
-
+            to: 'yauheni.aliakseyenko@neklo.com',
+            from: 'yauheni.aliakseyenko@neklo.com',
             // Your email Subject
             subject : email_subject + ' [' + current_date + ']',
 
             // Optional
-            transport: {
-                type: 'SMTP',
-                options: {
+            nodemailer: {
+                transporter: {
                     service: 'gmail',
                     auth: {
                         user: 'yauheni.aliakseyenko@neklo.com',
-                        pass: '******'
+                        pass: 'Mekpz1Bzm265Mekpz1Bzm265'
                     }
-                }
+                },
+                defaults: {}
             }
         }
     };
 
+var builder = emailBuilder(email_builder_options);
+
 gulp.task('emailBuilder', function() {
-    gulp.src(['./build/split-shipment.html'])
-        .pipe(emailBuilder(email_builder_options))
+    gulp.src(['./build/salesmessage6.html'])
+        .pipe(builder.build())
         .pipe(gulp.dest('./ready_to_send'));
 });
 
