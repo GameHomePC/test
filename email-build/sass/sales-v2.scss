@@ -1,0 +1,282 @@
+@import "mixin/mixin";
+@import "core/reset";
+
+html, body, .bg {
+  background-color: #FFFFFF;
+  background-image: linear-gradient(#FFFFFF, #FFFFFF);
+}
+
+.bg1 {
+  background-color: #F2F9FE;
+  background-image: linear-gradient(#F2F9FE, #F2F9FE);
+}
+
+tr, td {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 640px;
+}
+
+.headerBox {
+  width: 540px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+
+  &__logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__btn {
+    text-align: center;
+    margin-bottom: 12px;
+
+    a {
+      font-weight: bold;
+      font-size: 12px;
+      text-align: center;
+      color: #FFFFFF;
+      display: inline-block;
+      height: 27px;
+      width: 129px;
+      line-height: 28px;
+      background: #1D96F3;
+      border-radius: 20px;
+    }
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+  }
+
+  &__mainImage {
+    margin-bottom: 21px;
+  }
+
+  &__desc {
+    text-align: left;
+
+    p {
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 24px;
+      color: #4A4A4A;
+      margin-bottom: 18px;
+    }
+
+    a {
+      display: inline-block;
+      width: 148px;
+      height: 43px;
+      line-height: 43px;
+      background: #1D96F3;
+      border-radius: 6px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 15px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.content {
+  &__box {
+    width: 540px;
+  }
+
+  &__block {
+    border-bottom: 1px solid #EEEEEE;
+
+    td {
+      padding-top: 50px;
+      padding-bottom: 58px;
+
+      &:first-of-type {
+        width: 48%;
+      }
+
+      &:last-of-type {
+        width: 52%;
+      }
+    }
+  }
+
+  tr {
+    &:last-of-type {
+      .content__block {
+        border-bottom: none;
+      }
+    }
+  }
+
+  &__image {
+
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #4A4A4A;
+    margin-bottom: 15px;
+  }
+
+  &__desc {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #4A4A4A;
+    margin-bottom: 18px;
+  }
+
+  &__link {
+    a {
+      font-weight: bold;
+      font-size: 14px;
+      color: #0B73ED;
+    }
+  }
+}
+
+.peopleInfo {
+  width: 540px;
+
+  &__title {
+    font-weight: normal;
+    font-size: 15px;
+    color: #4A4A4A;
+    padding-top: 55px;
+    padding-bottom: 26px;
+  }
+
+  &__td {
+    td {
+      padding-bottom: 37px;
+
+      &:first-of-type {
+        width: 60px;
+      }
+    }
+  }
+
+  &__border {
+    div {
+      height: 4px;
+      background: #F7FAFB;
+      border-radius: 20px;
+    }
+  }
+
+  &__image {
+
+  }
+
+  &__info {
+    padding-top: 8px;
+    padding-left: 10px;
+
+    div {
+      &:first-of-type {
+        font-weight: bold;
+        font-size: 15px;
+        color: #4A4A4A;
+        margin-bottom: 7px;
+      }
+
+      &:last-of-type {
+        font-weight: normal;
+        font-size: 14px;
+        color: #62646A;
+      }
+    }
+  }
+}
+
+.footer {
+  &__title {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #4A4A4A;
+    padding-top: 80px;
+    margin-bottom: 27px;
+  }
+
+  &__mobiles {
+    text-align: center;
+    margin-bottom: 48px;
+
+    a {
+      margin-right: 12px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__soc {
+    text-align: center;
+    margin-bottom: 33px;
+
+    a {
+      margin-right: 12px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__info {
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #878B97;
+    margin-bottom: 35px;
+  }
+
+  &__buttons {
+    text-align: center;
+    padding-bottom: 60px;
+
+    a {
+      margin-right: 12px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    background: #F2F2F2;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #878B97;
+  }
+}
